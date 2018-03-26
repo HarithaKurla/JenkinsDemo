@@ -19,7 +19,7 @@ public class ModuleA {
      
      public int return_num()
      {
-         return 1;
+         return 2;
      }
     
 }

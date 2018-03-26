@@ -25,14 +25,14 @@ public class ModuleATest {
   public void test()
   {
       ModuleA m1=new ModuleA();
-      assertEquals("This is a first test case in moduleA",1,m1.return_num());
+      assertEquals("This is a first test case in moduleA",2,m1.return_num());
   }
   
    @Test
   public void test2()
   {
       ModuleA m1=new ModuleA();
-      assertEquals("This is a Second test case in moduleA",2,m1.return_num()+1);
+      assertEquals("This is a Second test case in moduleA",3,m1.return_num()+1);
   }
 
     // TODO add test methods here.
